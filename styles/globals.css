@@ -1,0 +1,9 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@media print {
+  .d-print-none {
+   display: none!important;
+  }
+ }
